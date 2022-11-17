@@ -51,7 +51,7 @@
             // @ts-ignore Muestra el nombre registrado en Google.
             nombre.value = usuarioAuth.displayName;
             // @ts-ignore Muestra el avatar registrado en Google.
-            avatar.src = usuarioAuth.photoURL;
+            x.src = usuarioAuth.photoURL;
           } else {
             // No ha iniciado sesión. Pide datos para iniciar sesión.
             auth.signInWithRedirect(provider);
